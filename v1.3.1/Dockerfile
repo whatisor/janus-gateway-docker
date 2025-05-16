@@ -44,6 +44,7 @@ RUN echo "MIRRORSITE=http://archive.ubuntu.com/ubuntu" >> /etc/pbuilderrc && \
 		libavformat-dev \
 		libwebsockets-dev \
 		liblua5.3-dev \
+  		librnnoise-dev \
         libsrtp2-dev && \
 	rm -rf /var/lib/apt/lists/*
 
